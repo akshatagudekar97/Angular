@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class EmailComponent {
 
+  data={
+    to:"",
+    subject:"",
+    message:""
+  }
+  constructor(){}
+
+  submitform()
+  {
+    alert("form is running")
+    console.log("try to submit form");
+  }
 }

@@ -13,6 +13,8 @@ import {MatIconModule} from '@angular/material/icon';
 import { EmailComponent } from './component/email/email.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import {MatInputModule} from '@angular/material/input';
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
+    FormsModule,
+    MatProgressSpinnerModule
   ],
   providers: [MatSnackBar],
   bootstrap: [AppComponent]
